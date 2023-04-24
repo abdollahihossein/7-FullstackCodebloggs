@@ -1,0 +1,31 @@
+.admin-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .card-container {
+    display: flex;
+    align-items: center;
+    margin-top: -400px;
+    margin-left: -500px;
+  }
+  
+  .card {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  
+  .card:last-child {
+    margin-right: 0;
+  }
+  
+  .card-title {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

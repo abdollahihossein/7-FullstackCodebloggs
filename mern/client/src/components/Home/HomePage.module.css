@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+  }
+  
+  .flexContainer {
+    display: flex;
+    justify-content: left;
+  }
+  
+  .initialsContainer,
+  .statusContainer,
+  .userInfoContainer {
+    max-width: 320px;
+    width: 100%;
+  }
+  
+  .initialsContainer {
+    margin: 150px 0 0 430px;
+  }
+  
+  .statusContainer,
+  .userInfoContainer {
+    margin: 30px 0 0 300px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .initialsContainer {
+      margin: 70px 0 0 20px;
+    }
+  
+    .statusContainer,
+    .userInfoContainer {
+      margin: 10px 0 0 20px;
+    }
+  }
+
+.secondColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.secondColumn .initialsContainer {
+  margin: 100px 0 0 5px;
+}
+
+.secondColumn .statusContainer,
+.secondColumn .userInfoContainer {
+  margin: 10px 0 0 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .secondColumn .initialsContainer {
+    margin: 70px 0 0 10px;
+  }
+
+  .secondColumn .statusContainer,
+  .secondColumn .userInfoContainer {
+    margin: 10px 0 0 10px;
+  }
+}

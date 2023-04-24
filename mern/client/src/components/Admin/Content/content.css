@@ -1,0 +1,16 @@
+.container-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+  }
+  
+  .center-content {
+    width: 50%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 100px; 
+  }
+  

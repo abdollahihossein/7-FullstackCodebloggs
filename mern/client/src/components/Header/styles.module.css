@@ -1,0 +1,78 @@
+.header {
+	width: 100%;
+	height: 105px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center; 
+	z-index: 2;
+	position: absolute;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.header h1 {
+	font-size: 70px;
+	margin: 0 auto; 
+    margin: 0 auto 0 20 0px; 
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: #8b98d8;
+	color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.post_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: #8b98d8;
+	color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-left: auto;
+    margin-right: 150px;
+}
+
+.logo {
+    width: 600px;
+    height: auto;
+    margin: 60px;
+  }
+  
+  .modal_btn {
+	border: none !important;
+	outline: none !important;
+	padding: 12px 0 !important;
+	background-color: #8b98d8 !important;
+	color: white !important;
+	border-radius: 20px !important;
+	width: 120px !important;
+	font-weight: bold !important;
+	font-size: 14px !important;
+	cursor: pointer !important;
+	margin-left: 170px !important;
+	margin-top: 20px !important;
+}
+
+.modal_header {
+	background-color: lightblue !important;
+}
+
+.modal_body {
+	background-color: lightblue !important;
+}
+
