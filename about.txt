@@ -1,0 +1,7 @@
+Week 9 & 10
+-------------------------------------------------------------------------
+REACTIVE VS. RESPONSIVE DESIGN:
+
+Reactive Web Design: Reactive features are constantly checking a website’s server for changes. As soon as a reactive element detects a change in the information being stored on the server, it sends a signal to your browser window to make the update to just that one section of the page so you can view the change as it happens without having to reload everything. Most elements on a website check the server only one time: when the page is loaded.
+
+Responsive Web Design: Responsive web design (RWD) is a web development approach that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it.
